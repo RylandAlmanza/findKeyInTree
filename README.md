@@ -33,10 +33,10 @@ For all the following examples, we will assume that
         }
     };
 
-`test.findKeyInTree('mammal')` would return `'mammal'`.
-`test.findKeyInTree('dog')` would return `['human.dog', 'mammal.dog']`.
-`test.findKeyInTree('Dog')` would return `false`.
-`test.findKeyInTree('Dog', false)` would return `['human.dog', 'mammal.dog']`.
-`test.findKeyInTree('lizard', true)` would return `'lizard'`.
+- `test.findKeyInTree('mammal')` would return `'mammal'`.
+- `test.findKeyInTree('dog')` would return `['human.dog', 'mammal.dog']`.
+- `test.findKeyInTree('Dog')` would return `false`.
+- `test.findKeyInTree('Dog', false)` would return `['human.dog', 'mammal.dog']`.
+- `test.findKeyInTree('lizard', true)` would return `'lizard'`.
 
 Got it? Good.
