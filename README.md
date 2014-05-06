@@ -37,6 +37,6 @@ For all the following examples, we will assume that
 - `test.findKeyInTree('dog')` would return `['human.dog', 'mammal.dog']`.
 - `test.findKeyInTree('Dog')` would return `false`.
 - `test.findKeyInTree('Dog', false)` would return `['human.dog', 'mammal.dog']`.
-- `test.findKeyInTree('lizard', true)` would return `'lizard'`.
+- `test.findKeyInTree('lizard', true)` would return `'reptile.lizard'`.
 
 Got it? Good.
